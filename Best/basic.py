@@ -24,3 +24,18 @@ text = input() # input เป็นคำสั่งในสั่งในก
 print(text)
 IkQ = input("Please enter 1 number: ") # เราสามารถใส่ข้อความลงไปใน input ได้เพื่อให้ข้อความนั้นปริ้นออกมา
 
+# รับค่าแบบเว้นบรรทัด
+a = input()
+b = input()
+c = input()
+print(a, b, c)
+
+# รับค่าแบบ 1 บรรทัด มีเว้นวรรคคั่น
+a, b, c = [x for x in input().split()]
+print(a)
+print(b)
+print(c)
+
+# การเขียน print โดยไม่ขึ้นบรรทัดใหม่
+print(5, end = " ")
+print(4)
