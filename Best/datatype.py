@@ -11,10 +11,8 @@ b = -2.05
 # ข้อความ เช่น "a", "-3", "string", "print"
 c = "N'Best"
 d = input()
-
-# string สามารถบวกกันได้ และสามารถคูณกับ int ได้
-print("3" + "4") # "3" + "4" -> "34"
-print(10 * "Nabc")
+# datatype: boolean
+# True, False
 
 # การเปลี่ยน datatype
 # เราจะใส่ int(), float() หรือ str() ล้อมรอบ data
