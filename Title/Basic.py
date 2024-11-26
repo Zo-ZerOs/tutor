@@ -1,3 +1,5 @@
+# syntax: grammar of coding language
+
 # comment - compiler doesnt read this line
 
 # print() function: print the input to the screen
@@ -16,3 +18,5 @@ print(str(x) + "Happy")
 # want to print 'Thai Land'
 print("Thai ", end = "")
 print("Land")
+
+# uppercase and lowercase matter!!! be careful!
